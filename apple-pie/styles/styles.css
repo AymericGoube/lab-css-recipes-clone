@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700%27');
+*{
+    font-family: hind Vadodara;
+}
+body{
+    margin: 0;
+}
+
+header{
+    background-image: url(../images/apple-pie.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 5rem;
+}
+hr{
+    width: 80%;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sectionTitle{
+    font-size:2rem;
+    font-weight: lighter;
+}
+.sectionImg{
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+}
+#firstSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#firstSection p{
+    text-align: left;
+}
+main p{
+    text-align: center;
+    font-size: 1.5rem;
+}
+#secondSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#secondSection ul{
+    padding-left: 0;
+}
+#secondSection li{
+list-style: "- ";
+font-size: 1.5rem;
+}
+#thirdSection {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+#thirdSection p{
+text-align: start;
+}
